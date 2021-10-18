@@ -15,14 +15,14 @@ font-family: 'Unica One', cursive; */
 }
 
 #navLogo {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 #thinNav {
     font-size: 10px;
     color: white;
-    min-height: 20px !important;
-    margin-top: -20px;
+    min-height: 30px !important;
+    margin-top: -10px;
     
 }
 .form-control:focus {
@@ -32,4 +32,9 @@ font-family: 'Unica One', cursive; */
 
 #topSection {
     height: auto;
+}
+
+#topImage {
+    width: 100%;
+
 }

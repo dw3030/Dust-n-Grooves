@@ -22,19 +22,10 @@
 </head>
 
 <body>
-  <!-- Thin nav bar at top -->
-    <nav id="thinNav" class="navbar navbar-dark bg-dark py-0">
-        <div class="navbar">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#">My Account</a>
-            </li>
-        </ul>
-        </div>
-      </nav>
+  
         
       <!-- Primary nav bar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a id="navLogo" class="navbar-brand" href="#"><img src="/img/logo.jpg" width="60" height="60" alt="logo">
             DUST'n'GROOVES</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,39 +67,27 @@
           </ul>
 
           <ul class="navbar-nav mr-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Books</a>
+              <a class="nav-link" href="#">My Account</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Vinyl
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">New</a>
-                <a class="dropdown-item" href="#">Used</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item text-danger" href="#"><strong>Sale</strong></a>
-              </div>
-            </li>
+            
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-shopping-basket"></i></a>
+            <!--shopping cart  -->
+              <a class="nav-link" href="#"><i class="fas fa-shopping-basket"></i></a>
             </li>
           </ul>
 
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Go Diggin'!</button>
           </form>
         </div>
       </nav>  
       
-<div id="topSection" class="container-fluid">
+<div id="topSection" class="container-fluid px-0">
 <div class="row">
-  <div class="col">
-
+  <div class="col has-bg-img">
+    <a id="topImage"><img src="img/neon-sign-music-vinyl-record-audio.jpg" class="img-fluid w-100 bg-img" alt="img-fluid"></a>
   </div>
 </div>
 
