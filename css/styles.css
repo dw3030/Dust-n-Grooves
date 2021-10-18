@@ -8,6 +8,7 @@ font-family: 'Unica One', cursive; */
 .navbar {
     font-family: 'Spicy Rice', cursive;
     font-size: 24px;
+    background-image: linear-gradient(90deg, white 40%, #401A11 100%);
 }
 
 .dropdown-item {
@@ -37,4 +38,15 @@ font-family: 'Unica One', cursive; */
 #topImage {
     width: 100%;
 
+}
+
+#featuredProducts {
+    background-color: black;
+    background-image: url("/img/stacksNew.jpg");
+}
+
+.albums {
+    max-width: 100%;
+    height: auto;
+   
 }
